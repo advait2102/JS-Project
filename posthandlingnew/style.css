@@ -1,0 +1,89 @@
+* {
+    margin: 0%;
+    padding: 0%;
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Oxygen, Ubuntu, Cantarell, "Open Sans", "Helvetica Neue", sans-serif;
+  }
+  
+  .logo {
+    width: 40%;
+  }
+  
+  .heading {
+    width: 60%;
+    border-bottom: 3px solid #354161;
+    padding-right: 2%;
+  }
+  
+  .lower-leftpane {
+    justify-content: center;
+    align-items: center;
+  }
+  
+  .header {
+    display: flex;
+    height: 10vh;
+    width: 100%;
+    justify-content: center;
+    align-items: center;
+  }
+  
+  .pie-chart-container {
+    display: flex;
+    align-items: center;
+    margin-left: 60px;
+    justify-content: space-between;
+    justify-content: space-around;
+  }
+  
+  .pie-chart {
+    width: 200px;
+    height: 200px;
+    border-radius: 50%;
+    background: conic-gradient(#dcd5d5 0% 45%, #1c3a7b 45% 76%, #97afe4 76% 85%, #000000 85% 100%);
+    position: relative;
+  }
+  
+  .legend {
+    display: flex;
+    flex-direction: column;
+    margin-left: 20px;
+  }
+  
+  .legend-name {
+    display: flex;
+    align-items: center;
+    margin: 5px 0;
+    font-size: 14px;
+  }
+  
+  .legend-color {
+    width: 12px;
+    height: 12px;
+    margin-right: 8px;
+  }
+  
+  .bar-img {
+    justify-content: center;
+    width: 25vw;
+  }
+  
+  #graph {
+    width: 25vw;
+  }
+  
+  .bartext {
+    display: flex;
+  }
+  
+  .graph {
+    display: flex;
+  }
+  
+  .piebar-img {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+  
+  /*# sourceMappingURL=style.css.map */
+  
